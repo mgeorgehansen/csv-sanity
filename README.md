@@ -140,13 +140,29 @@ Rules are objects with two fields:
 
 ### Transformers
 
-
-
 #### Capitalize
+
+```json
+{
+    "Capitalize": {}
+}
+```
 
 Transforms string fields into Capital Case.
 
 #### Choice
+
+```json
+{
+    "Choice": {
+        "choices": [
+            "A",
+            "B",
+            "C"
+        ]
+    }
+}
+```
 
 Only accepts a pre-defined list of acceptable values and rejects the rest.
 
