@@ -1,6 +1,13 @@
 [package]
 name = "csv-sanity"
 version = "0.1.0"
+description = """
+Sanitize and transform large CSVs with millions of records quickly and efficiently.
+"""
+readme = "README.md"
+repository = "https://github.com/mgeorgehansen/csv-sanity"
+keywords = ["csv"]
+categories = ["command-line-utilities", "text-processing"]
 authors = ["M. George Hansen <technopolitica@gmail.com>"]
 license = "MPL-2.0"
 maintenance = { status = "passively-maintained" }
